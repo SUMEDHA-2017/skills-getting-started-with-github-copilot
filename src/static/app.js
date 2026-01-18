@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
         messageDiv.textContent = result.message;
         messageDiv.className = "success";
         signupForm.reset();
-        // Refresh activities list to show the new participant
+        /workspaces/skills-getting-started-with-github-copilot/.venv/bin/python -m pytest tests/ -v        pytest tests/ -v        // Refresh activities list to show the new participant
         await fetchActivities();
       } else {
         messageDiv.textContent = result.detail || "An error occurred";
